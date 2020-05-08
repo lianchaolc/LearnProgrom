@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_crop_image_view2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="activity.ljsw.com.leanprogrom.activity.CropImageView2Activity">
+
+    <FrameLayout
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <activity.ljsw.com.leanprogrom.viewutils.view.CropImageView
+            android:id="@+id/activity_crop_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/cropOk"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="完成" />
+
+    </FrameLayout>
+</LinearLayout>
