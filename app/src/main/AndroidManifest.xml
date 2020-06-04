@@ -60,27 +60,28 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
-        <activity android:name=".activity.MenumActivity" />
+        <activity android:name=".activity.MenumActivity" > <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
         <activity android:name=".activity.TwoCodeScannerActivity" />
         <activity android:name=".activity.CropImageViewActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".activity.CropImageView2Activity" />
         <activity android:name=".activity.Login2Activity" />
         <activity android:name=".activity.BaseActivity" />
         <activity android:name=".activity.MainWebActivity" />
         <activity android:name=".activity.ShalpActivity" />
-        <activity android:name=".activity.HomeActivity"></activity>
+        <activity android:name=".activity.HomeActivity" />
+        <activity android:name=".fragment.OneHomeFragment" />
+        <activity android:name=".activity.RecyclActivity" />
+        <activity android:name=".activity.SearchActivity" />
+        <activity android:name=".activity.testActivity">
+
+        </activity>
     </application>
 
 </manifest>
