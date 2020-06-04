@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">LeanProgrom</string>
+    <string name="username">用户名称</string>
+    <string name="index">首页</string>
+    <string name="weiget">控件</string>
+    <string name="mine">我的</string>
+    <string name="et_username_hint">请输入用户名</string>
+    <string name="password">密\t\t\t码</string>
+    <string name="et_password_hint">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="regitster">注册</string>
+    <string name="about_us">\t\t\t此app为kotlin开发的android项目，使用了玩安卓的api（网址www.wanandroid.com），界面设计和图标，参考了玩安卓网中的项目。在此，感谢wanandroid网站的支持。该项目采用了mvvm的架构，rxjava+retrofit的网络请求框架等，如有疑问，请联系作者。邮箱：459909255@qq.com</string>
+    <string name="market_buy_now">立即购买</string>
+    <string name="market_add_to_cart">加入购物车</string>
+    <string name="search_merchant">搜索感兴趣的商品</string>
 </resources>
